@@ -1,0 +1,31 @@
+{
+  "name": "get-gmail-to-spreadsheet",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "glogin": "clasp login",
+    "glogout": "clasp logout",
+    "gcreate": "clasp create --title 'get-gmail-to-spreadsheet' --rootDir ./apps-script",
+    "gclone": "clasp clone clone先のURL --rootDir ./apps-script",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gstart": "clasp push --watch",
+    "start": "parcel src/index.html --dist-dir ./apps-script",
+    "build": "parcel build src/index.html --dist-dir ./apps-script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tohhiro/get-gmail-to-spreadsheet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tohhiro/get-gmail-to-spreadsheet/issues"
+  },
+  "homepage": "https://github.com/tohhiro/get-gmail-to-spreadsheet#readme",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.56"
+  }
+}
