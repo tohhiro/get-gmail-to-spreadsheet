@@ -48,3 +48,8 @@ webapp
 api
 ```
 `apps-script`ディレクトリの中に`.clasp.json`が作成されているので、root直下に移動。
+
+root直下に`.clasp.json`を作成。下記のフォーマットで値を入力。
+```
+{"scriptId":"GASのIDを入力","rootDir":"./apps-script","parentId":["スプシのIDを入力"]}
+```
