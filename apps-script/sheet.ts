@@ -32,7 +32,7 @@ interface sheetType {
 
       // メールの内容を配列にパースしたものをSpreadSheetに反映
       setMailBody() {
-        this.sheet().getRange(this.getlastRow(), 1, this.SET_VAL_ARRAY.length, 11).setValues(this.SET_VAL_ARRAY)
+        this.sheet().getRange(this.getlastRow(), 1, this.SET_VAL_ARRAY.length, 3).setValues(this.SET_VAL_ARRAY)
       }
 
     }
